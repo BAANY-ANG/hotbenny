@@ -11,11 +11,15 @@
     margin: auto;
     width: 75%;
     height: auto;
+    flex-direction: row;
+    display:flex;
 }
 
 #about-us{
-    background: grey;
+    background: #E0E0E0;
     font-family: 'Manrope', sans-serif;
+    border-radius: 25px;
+    flex-grow: 3;
 }
 
 #content {
@@ -25,9 +29,15 @@
 }
 
 #what-we-do{
-
+    background: #E0E0E0;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 25px;
+    flex-grow: 3;g
 }
 
 #invest{
-
+    background: #E0E0E0;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 25px;
+    flex-grow: 3;
 }
