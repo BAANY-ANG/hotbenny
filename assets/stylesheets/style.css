@@ -50,4 +50,30 @@
 
 #item{
     flex-grow: 3;
+    padding: 50px;
+    margin:auto;
+}
+
+.nav {
+    border-radius: 25px;
+    height: 50px;
+    border: 2px solid grey;
+    background: grey;
+    flex-direction: row;
+    display: flex;
+}
+
+.nav-item {
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: whitesmoke;
+    flex-grow: auto;
+    padding: 10px;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #505050;
 }
