@@ -45,13 +45,26 @@
 #pics{
     margin:auto;
     flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
     display:flex;
 }
 
-#item{
-    flex-grow: 3;
-    padding: 50px;
+.item{
+    flex: 0 0 33.333333%;
     margin:auto;
+    width: 480;
+    height: 240;
+}
+
+.item:hover {   
+    position: relative;
+    top:-15px;
+    left:-25px;
+    z-index:999;
+    width:600px;
+    height:auto;
+    display: block;
 }
 
 .nav {
