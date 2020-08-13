@@ -15,17 +15,17 @@
     display:flex;
 }
 
+#content {
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
 #about-us{
     background: #E0E0E0;
     font-family: 'Manrope', sans-serif;
     border-radius: 25px;
     flex-grow: 3;
-}
-
-#content {
-    margin: auto;
-    width: auto;
-    height: auto;
 }
 
 #what-we-do{
@@ -39,5 +39,15 @@
     background: #E0E0E0;
     font-family: 'Manrope', sans-serif;
     border-radius: 25px;
+    flex-grow: 3;
+}
+
+#pics{
+    margin:auto;
+    flex-direction: row;
+    display:flex;
+}
+
+#item{
     flex-grow: 3;
 }
