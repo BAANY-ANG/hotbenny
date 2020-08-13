@@ -1,0 +1,33 @@
+--root{
+    --mainColour: grey;
+
+
+}
+
+#company-details {
+    border: 5px solid whitesmoke;
+    background-color: 	#F0F0F0;
+    border-radius: 25px;
+    margin: auto;
+    width: 75%;
+    height: auto;
+}
+
+#about-us{
+    background: grey;
+    font-family: 'Manrope', sans-serif;
+}
+
+#content {
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+#what-we-do{
+
+}
+
+#invest{
+
+}
