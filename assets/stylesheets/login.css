@@ -23,6 +23,8 @@
 #Error {
     color: red;
     font-size: 15px;
+    text-align: center;
+    display: block;
 }
 
 #welcome {
@@ -34,4 +36,13 @@
     display:block;
     padding: 25px;
     font-size: 36px;
+}
+
+#title {
+    margin: auto;
+    padding-bottom: 175px;
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
 }
