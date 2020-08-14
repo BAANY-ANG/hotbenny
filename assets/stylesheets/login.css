@@ -1,0 +1,37 @@
+#login 
+{
+    margin: auto;
+    padding: 20%;
+}
+
+#username
+{
+    margin:auto;
+    padding-left: 21.3%;
+}
+
+#password{ 
+    margin:auto;
+    padding-left: 20%;
+}
+
+#submit {
+    margin:auto;
+    padding-left: 25%;
+}
+
+#Error {
+    color: red;
+    font-size: 15px;
+}
+
+#welcome {
+    color: #0FAEff;
+    border: 2px solid navy;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    display:block;
+    padding: 25px;
+    font-size: 36px;
+}
